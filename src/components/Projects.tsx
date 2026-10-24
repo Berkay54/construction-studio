@@ -1,9 +1,9 @@
 import './Projects.css'
 
 const projects = [
-  { slug: 'vadi-evleri', name: 'Vadi Evleri', location: 'Sakarya', type: 'Konut', description: 'Doğayla bütünleşen çağdaş yaşam alanları.', alt: 'Yeşil bir peyzaj içinde çağdaş konut bloklarını gösteren temsili mimari çizim' },
-  { slug: 'kent-rezidans', name: 'Kent Rezidans', location: 'İstanbul', type: 'Karma Yaşam', description: 'Şehir yaşamına modern ve işlevsel bir yaklaşım.', alt: 'Şehir silüeti önünde yükselen konut ve ticaret yapılarını gösteren temsili mimari çizim' },
-  { slug: 'nehir-konutlari', name: 'Nehir Konutları', location: 'Sapanca', type: 'Konut', description: 'Sakinlik, manzara ve mimariyi bir araya getiren özel yaşam alanları.', alt: 'Su kenarında, ağaçlar arasında yer alan az katlı konutların temsili mimari çizimi' },
+  { slug: 'vadi-evleri', name: 'Vadi Evleri', location: 'Sakarya', type: 'Konut', description: 'Doğayla bütünleşen çağdaş yaşam alanları.', alt: 'Vadi Evleri: peyzajlı giriş alanı, geniş balkonlar ve gün batımında yükselen konut blokları' },
+  { slug: 'kent-rezidans', name: 'Kent Rezidans', location: 'İstanbul', type: 'Karma Yaşam', description: 'Şehir yaşamına modern ve işlevsel bir yaklaşım.', alt: 'Kent Rezidans: yeşil avlu ve su öğesi çevresinde konumlanan balkonlu modern yapılar' },
+  { slug: 'nehir-konutlari', name: 'Nehir Konutları', location: 'Sapanca', type: 'Konut', description: 'Sakinlik, manzara ve mimariyi bir araya getiren özel yaşam alanları.', alt: 'Nehir Konutları: su kıyısında peyzajlı yürüyüş alanları ve az katlı konutlar' },
 ]
 
 export function Projects({ onInspect }: { onInspect: (name: string) => void }) {
@@ -16,8 +16,7 @@ export function Projects({ onInspect }: { onInspect: (name: string) => void }) {
       <div className="projects-showcase">
         {projects.map(project => <article className={`project project--${project.slug}`} key={project.slug} aria-labelledby={`${project.slug}-heading`}>
           <figure className="project-visual">
-            <img src={`/images/projects/${project.slug}.svg`} width="1600" height="1000" alt={project.alt} loading="lazy" decoding="async" />
-            <figcaption>Temsili görsel</figcaption>
+            <img src={`/images/projects/${project.slug}.jpg`} width="1672" height="941" alt={project.alt} loading="lazy" decoding="async" />
           </figure>
           <div className="project-details">
             <div className="project-title">
@@ -26,9 +25,9 @@ export function Projects({ onInspect }: { onInspect: (name: string) => void }) {
             </div>
             <div className="project-summary">
               <p>{project.description}</p>
-              <a className="project-link" href={`#${project.slug}`} aria-label={`${project.name} projesini incele`} onClick={event => { event.preventDefault(); onInspect(project.name) }}>
+              <button className="project-link" type="button" aria-label={`${project.name} projesini incele`} onClick={() => onInspect(project.name)}>
                 Projeyi İncele<svg width="23" height="23" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" strokeWidth="1.7" /></svg>
-              </a>
+              </button>
             </div>
           </div>
         </article>)}

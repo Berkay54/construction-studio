@@ -1,0 +1,102 @@
+- generic [ref=e2]:
+  - link "İçeriğe geç" [ref=e3] [cursor=pointer]:
+    - /url: "#ana-sayfa"
+  - banner [ref=e4]:
+    - link "Temel İnşaat — Ana Sayfa" [ref=e5] [cursor=pointer]:
+      - /url: "#ana-sayfa"
+      - generic [ref=e9]:
+        - text: TEMEL
+        - generic [ref=e10]: İNŞAAT
+    - navigation "Ana menü" [ref=e11]:
+      - link "Ana Sayfa" [ref=e12] [cursor=pointer]:
+        - /url: "#ana-sayfa"
+      - link "Projeler" [ref=e13] [cursor=pointer]:
+        - /url: "#projeler"
+      - link "Hakkımızda" [ref=e14] [cursor=pointer]:
+        - /url: "#hakkimizda"
+      - link "Hizmetler" [ref=e15] [cursor=pointer]:
+        - /url: "#hizmetler"
+      - link "İletişim" [ref=e16] [cursor=pointer]:
+        - /url: "#iletisim"
+        - text: İletişim
+        - generic [aria-hidden] [ref=e17]: ↗
+  - main [ref=e18]:
+    - region [ref=e19]:
+      - generic [ref=e21]:
+        - heading "YAŞAM İÇİN İNŞA EDİYORUZ." [level=1] [ref=e22]: YAŞAM İÇİNİNŞA EDİYORUZ.
+        - paragraph [ref=e23]: Geleceğin yaşam alanlarını, sağlam mühendislik ve çağdaş mimariyle hayata geçiriyoruz.
+        - link "Projelerimizi İncele" [ref=e24] [cursor=pointer]:
+          - /url: "#projeler"
+      - button "Arka plan videosunu duraklat" [ref=e27] [cursor=pointer]
+    - region [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "BİR YAPI NASIL HAYATA GEÇER?" [level=2] [ref=e33]: BİR YAPI NASILHAYATA GEÇER?
+          - paragraph [ref=e34]: Her proje; doğru planlama, güçlü mühendislik ve kusursuz uygulamanın birleşimidir.
+        - generic [ref=e35]:
+          - generic "Betonarme bir yapının inşa süreci" [ref=e36]
+          - button "Yapı videosunu oynat" [ref=e37] [cursor=pointer]
+        - list "Projenin hayata geçiş aşamaları" [ref=e40]:
+          - listitem [ref=e41]:
+            - heading "Planlama" [level=3] [ref=e42]
+            - paragraph [ref=e43]: İhtiyaçları anlıyor, her ayrıntıyı özenle planlıyoruz.
+          - listitem [ref=e44]:
+            - heading "Mühendislik" [level=3] [ref=e45]
+            - paragraph [ref=e46]: Sağlam temelleri doğru hesaplarla oluşturuyoruz.
+          - listitem [ref=e47]:
+            - heading "Uygulama" [level=3] [ref=e48]
+            - paragraph [ref=e49]: Projeyi, sahada titizlikle gerçeğe dönüştürüyoruz.
+          - listitem [ref=e50]:
+            - heading "Teslim" [level=3] [ref=e51]
+            - paragraph [ref=e52]: Her detayı kontrol ediyor, yaşamınıza hazır sunuyoruz.
+    - region [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - heading "Projeler" [level=2] [ref=e56]
+          - paragraph [ref=e57]: Yaşamı, mimariyi ve mühendisliği bir araya getiren seçili projelerimiz.
+        - generic [ref=e58]:
+          - article [ref=e59]:
+            - figure "Temsili görsel" [ref=e60]:
+              - img "Yeşil bir peyzaj içinde çağdaş konut bloklarını gösteren temsili mimari çizim" [ref=e61]
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - paragraph [ref=e65]:
+                  - text: Sakarya /
+                  - generic [ref=e66]: ","
+                  - text: Konut
+                - heading "Vadi Evleri" [level=3] [ref=e67]
+              - generic [ref=e68]:
+                - paragraph [ref=e69]: Doğayla bütünleşen çağdaş yaşam alanları.
+                - link "Vadi Evleri projesini incele" [ref=e70] [cursor=pointer]:
+                  - /url: "#vadi-evleri"
+                  - text: Projeyi İncele
+          - article [ref=e73]:
+            - figure "Temsili görsel" [ref=e74]:
+              - img "Şehir silüeti önünde yükselen konut ve ticaret yapılarını gösteren temsili mimari çizim" [ref=e75]
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - paragraph [ref=e79]:
+                  - text: İstanbul /
+                  - generic [ref=e80]: ","
+                  - text: Karma Yaşam
+                - heading "Kent Rezidans" [level=3] [ref=e81]
+              - generic [ref=e82]:
+                - paragraph [ref=e83]: Şehir yaşamına modern ve işlevsel bir yaklaşım.
+                - link "Kent Rezidans projesini incele" [ref=e84] [cursor=pointer]:
+                  - /url: "#kent-rezidans"
+                  - text: Projeyi İncele
+          - article [ref=e87]:
+            - figure "Temsili görsel" [ref=e88]:
+              - img "Su kenarında, ağaçlar arasında yer alan az katlı konutların temsili mimari çizimi" [ref=e89]
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - paragraph [ref=e93]:
+                  - text: Sapanca /
+                  - generic [ref=e94]: ","
+                  - text: Konut
+                - heading "Nehir Konutları" [level=3] [ref=e95]
+              - generic [ref=e96]:
+                - paragraph [ref=e97]: Sakinlik, manzara ve mimariyi bir araya getiren özel yaşam alanları.
+                - link "Nehir Konutları projesini incele" [ref=e98] [cursor=pointer]:
+                  - /url: "#nehir-konutlari"
+                  - text: Projeyi İncele

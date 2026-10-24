@@ -1,0 +1,202 @@
+- generic [ref=f6e2]:
+  - link "İçeriğe geç" [ref=f6e3] [cursor=pointer]:
+    - /url: "#ana-sayfa"
+  - banner [ref=f6e4]:
+    - link "Temel İnşaat — Ana Sayfa" [ref=f6e5] [cursor=pointer]:
+      - /url: "#ana-sayfa"
+      - generic [ref=f6e9]:
+        - text: TEMEL
+        - generic [ref=f6e10]: İNŞAAT
+    - button "Menü" [ref=f6e11] [cursor=pointer]
+  - main [ref=f6e15]:
+    - region [ref=f6e16]:
+      - generic [ref=f6e18]:
+        - heading "YAŞAM İÇİN İNŞA EDİYORUZ." [level=1] [ref=f6e19]: YAŞAM İÇİNİNŞA EDİYORUZ.
+        - paragraph [ref=f6e20]: Geleceğin yaşam alanlarını, sağlam mühendislik ve çağdaş mimariyle hayata geçiriyoruz.
+        - link "Projelerimizi İncele" [ref=f6e21] [cursor=pointer]:
+          - /url: "#projeler"
+      - button "Arka plan videosunu duraklat" [ref=f6e24] [cursor=pointer]
+    - region [ref=f6e27]:
+      - generic [ref=f6e28]:
+        - generic [ref=f6e29]:
+          - heading "BİR YAPI NASIL HAYATA GEÇER?" [level=2] [ref=f6e30]: BİR YAPI NASILHAYATA GEÇER?
+          - paragraph [ref=f6e31]: Her proje; doğru planlama, güçlü mühendislik ve kusursuz uygulamanın birleşimidir.
+        - generic [ref=f6e32]:
+          - generic "Betonarme bir yapının inşa süreci" [ref=f6e33]
+          - button "Yapı videosunu oynat" [ref=f6e34] [cursor=pointer]
+        - list "Projenin hayata geçiş aşamaları" [ref=f6e37]:
+          - listitem [ref=f6e38]:
+            - heading "Planlama" [level=3] [ref=f6e39]
+            - paragraph [ref=f6e40]: İhtiyaçları anlıyor, her ayrıntıyı özenle planlıyoruz.
+          - listitem [ref=f6e41]:
+            - heading "Mühendislik" [level=3] [ref=f6e42]
+            - paragraph [ref=f6e43]: Sağlam temelleri doğru hesaplarla oluşturuyoruz.
+          - listitem [ref=f6e44]:
+            - heading "Uygulama" [level=3] [ref=f6e45]
+            - paragraph [ref=f6e46]: Projeyi, sahada titizlikle gerçeğe dönüştürüyoruz.
+          - listitem [ref=f6e47]:
+            - heading "Teslim" [level=3] [ref=f6e48]
+            - paragraph [ref=f6e49]: Her detayı kontrol ediyor, yaşamınıza hazır sunuyoruz.
+    - region [ref=f6e50]:
+      - generic [ref=f6e51]:
+        - generic [ref=f6e52]:
+          - heading "Projeler" [level=2] [ref=f6e53]
+          - paragraph [ref=f6e54]: Yaşamı, mimariyi ve mühendisliği bir araya getiren seçili projelerimiz.
+        - generic [ref=f6e55]:
+          - article [ref=f6e56]:
+            - figure "Temsili görsel" [ref=f6e57]:
+              - img "Yeşil bir peyzaj içinde çağdaş konut bloklarını gösteren temsili mimari çizim" [ref=f6e58]
+            - generic [ref=f6e60]:
+              - generic [ref=f6e61]:
+                - paragraph [ref=f6e62]:
+                  - text: Sakarya /
+                  - generic [ref=f6e63]: ","
+                  - text: Konut
+                - heading "Vadi Evleri" [level=3] [ref=f6e64]
+              - generic [ref=f6e65]:
+                - paragraph [ref=f6e66]: Doğayla bütünleşen çağdaş yaşam alanları.
+                - button "Vadi Evleri projesini incele" [ref=f6e67] [cursor=pointer]: Projeyi İncele
+          - article [ref=f6e70]:
+            - figure "Temsili görsel" [ref=f6e71]:
+              - img "Şehir silüeti önünde yükselen konut ve ticaret yapılarını gösteren temsili mimari çizim" [ref=f6e72]
+            - generic [ref=f6e74]:
+              - generic [ref=f6e75]:
+                - paragraph [ref=f6e76]:
+                  - text: İstanbul /
+                  - generic [ref=f6e77]: ","
+                  - text: Karma Yaşam
+                - heading "Kent Rezidans" [level=3] [ref=f6e78]
+              - generic [ref=f6e79]:
+                - paragraph [ref=f6e80]: Şehir yaşamına modern ve işlevsel bir yaklaşım.
+                - button "Kent Rezidans projesini incele" [ref=f6e81] [cursor=pointer]: Projeyi İncele
+          - article [ref=f6e84]:
+            - figure "Temsili görsel" [ref=f6e85]:
+              - img "Su kenarında, ağaçlar arasında yer alan az katlı konutların temsili mimari çizimi" [ref=f6e86]
+            - generic [ref=f6e88]:
+              - generic [ref=f6e89]:
+                - paragraph [ref=f6e90]:
+                  - text: Sapanca /
+                  - generic [ref=f6e91]: ","
+                  - text: Konut
+                - heading "Nehir Konutları" [level=3] [ref=f6e92]
+              - generic [ref=f6e93]:
+                - paragraph [ref=f6e94]: Sakinlik, manzara ve mimariyi bir araya getiren özel yaşam alanları.
+                - button "Nehir Konutları projesini incele" [ref=f6e95] [cursor=pointer]: Projeyi İncele
+    - region [ref=f6e98]:
+      - generic [ref=f6e99]:
+        - paragraph [ref=f6e100]: Hakkımızda
+        - heading "Yalnızca yapı değil, yaşam alanları üretiyoruz." [level=2] [ref=f6e101]: Yalnızca yapı değil,yaşam alanları üretiyoruz.
+        - figure [ref=f6e102]:
+          - img "Gün ışığının aydınlattığı betonarme kolonlar ve döşemeler arasında uzanan yapı içi perspektif." [ref=f6e103]
+        - generic [ref=f6e104]:
+          - paragraph [ref=f6e105]: Her projeye; bulunduğu çevreyi, kullanıcı ihtiyaçlarını ve uzun vadeli değeri birlikte düşünerek yaklaşıyoruz.
+          - paragraph [ref=f6e106]: Mimari kararları güçlü mühendislik, doğru malzeme seçimi ve titiz uygulamayla bir araya getiriyor; zamana karşı değerini koruyan yapılar ortaya çıkarıyoruz.
+        - paragraph [ref=f6e108]: Bizim için iyi bir proje, yalnızca tamamlandığında değil, yıllar sonra da doğru hissettirmelidir.
+    - region [ref=f6e109]:
+      - generic [ref=f6e110]:
+        - generic [ref=f6e111]:
+          - heading "Hizmetlerimiz" [level=2] [ref=f6e112]
+          - paragraph [ref=f6e113]: Fikir aşamasından anahtar teslim uygulamaya kadar, yapı üretiminin her adımında bütüncül çözümler sunuyoruz.
+        - generic [ref=f6e114]:
+          - figure "Konut Projeleri Temsili görsel" [ref=f6e115]:
+            - img "Yeşil peyzaj içinde modern konut bloklarının temsili mimari çizimi." [ref=f6e117]
+            - generic [ref=f6e121]:
+              - generic [ref=f6e122]: Konut Projeleri
+              - generic [ref=f6e123]: Temsili görsel
+          - list [ref=f6e124]:
+            - listitem [ref=f6e125]:
+              - button "Konut Projeleri Modern, işlevsel ve yaşama odaklı konut çözümleri." [pressed] [ref=f6e126] [cursor=pointer]:
+                - generic [ref=f6e127]: Konut Projeleri
+                - generic [ref=f6e128]: Modern, işlevsel ve yaşama odaklı konut çözümleri.
+            - listitem [ref=f6e131]:
+              - button "Ticari Yapılar Marka değerini ve kullanıcı deneyimini güçlendiren yapılar." [ref=f6e132] [cursor=pointer]:
+                - generic [ref=f6e133]: Ticari Yapılar
+                - generic [ref=f6e134]: Marka değerini ve kullanıcı deneyimini güçlendiren yapılar.
+            - listitem [ref=f6e137]:
+              - button "Anahtar Teslim Uygulama Tüm süreci tek merkezden planlayıp uyguluyoruz." [ref=f6e138] [cursor=pointer]:
+                - generic [ref=f6e139]: Anahtar Teslim Uygulama
+                - generic [ref=f6e140]: Tüm süreci tek merkezden planlayıp uyguluyoruz.
+            - listitem [ref=f6e143]:
+              - button "Proje ve Uygulama Yönetimi Zaman, bütçe ve kaliteyi kontrollü biçimde yönetiyoruz." [ref=f6e144] [cursor=pointer]:
+                - generic [ref=f6e145]: Proje ve Uygulama Yönetimi
+                - generic [ref=f6e146]: Zaman, bütçe ve kaliteyi kontrollü biçimde yönetiyoruz.
+    - region [ref=f6e149]:
+      - generic [ref=f6e150]:
+        - generic [ref=f6e151]:
+          - paragraph [ref=f6e152]: İletişim
+          - heading "Bir sonraki projeyi birlikte hayata geçirelim." [level=2] [ref=f6e153]: Bir sonraki projeyibirlikte hayata geçirelim.
+          - paragraph [ref=f6e154]: Yeni bir proje, iş birliği veya teklif talebi için bizimle iletişime geçin.
+          - button "Projenizi Konuşalım" [ref=f6e155] [cursor=pointer]:
+            - text: Projenizi Konuşalım
+            - generic [aria-hidden] [ref=f6e156]: ↗
+          - generic [ref=f6e157]:
+            - generic [ref=f6e158]:
+              - generic [ref=f6e159]: Telefon
+              - link "+90 264 000 00 00" [ref=f6e160] [cursor=pointer]:
+                - /url: tel:+902640000000
+            - generic [ref=f6e161]:
+              - generic [ref=f6e162]: E-posta
+              - link "info@constructionstudio.com" [ref=f6e163] [cursor=pointer]:
+                - /url: mailto:info@constructionstudio.com
+            - generic [ref=f6e164]:
+              - generic [ref=f6e165]: Adres
+              - paragraph [ref=f6e166]: Sakarya, Türkiye
+        - form "Proje iletişim formu" [ref=f6e167]:
+          - generic [ref=f6e168]:
+            - generic [ref=f6e169]: Ad Soyad
+            - textbox "Ad Soyad" [ref=f6e170]
+          - generic [ref=f6e171]:
+            - generic [ref=f6e172]: Telefon (isteğe bağlı)
+            - textbox "Telefon (isteğe bağlı)" [ref=f6e173]
+          - generic [ref=f6e174]:
+            - generic [ref=f6e175]: E-posta
+            - textbox "E-posta" [ref=f6e176]
+          - generic [ref=f6e177]:
+            - generic [ref=f6e178]: Proje Türü
+            - combobox "Proje Türü" [ref=f6e179]:
+              - option "Proje türünü seçin" [disabled] [selected]
+              - option "Konut Projeleri"
+              - option "Ticari Yapılar"
+              - option "Anahtar Teslim Uygulama"
+              - option "Proje ve Uygulama Yönetimi"
+              - option "Diğer"
+          - generic [ref=f6e180]:
+            - generic [ref=f6e181]: Mesajınız
+            - textbox "Mesajınız" [ref=f6e182]
+          - generic [ref=f6e183]:
+            - paragraph [ref=f6e184]: Bu form önizleme amaçlıdır. Bilgileriniz gönderilmez.
+            - button "Gönder" [ref=f6e185] [cursor=pointer]:
+              - text: Gönder
+              - generic [aria-hidden] [ref=f6e186]: →
+  - contentinfo [ref=f6e187]:
+    - generic [ref=f6e188]:
+      - generic [ref=f6e189]:
+        - generic [ref=f6e190]:
+          - link "Temel İnşaat — Ana Sayfa" [ref=f6e191] [cursor=pointer]:
+            - /url: "#ana-sayfa"
+            - generic [ref=f6e195]: TEMEL İNŞAAT
+          - paragraph [ref=f6e196]: Güçlü mühendislik. Doğru uygulama. Kalıcı yapılar.
+        - generic [ref=f6e197]:
+          - generic [ref=f6e198]:
+            - generic [ref=f6e199]: Telefon
+            - link "+90 264 000 00 00" [ref=f6e200] [cursor=pointer]:
+              - /url: tel:+902640000000
+          - generic [ref=f6e201]:
+            - generic [ref=f6e202]: E-posta
+            - link "info@constructionstudio.com" [ref=f6e203] [cursor=pointer]:
+              - /url: mailto:info@constructionstudio.com
+          - generic [ref=f6e204]:
+            - generic [ref=f6e205]: Adres
+            - paragraph [ref=f6e206]: Sakarya, Türkiye
+      - navigation "Alt menü" [ref=f6e207]:
+        - link "Ana Sayfa" [ref=f6e208] [cursor=pointer]:
+          - /url: "#ana-sayfa"
+        - link "Projeler" [ref=f6e209] [cursor=pointer]:
+          - /url: "#projeler"
+        - link "Hakkımızda" [ref=f6e210] [cursor=pointer]:
+          - /url: "#hakkimizda"
+        - link "Hizmetler" [ref=f6e211] [cursor=pointer]:
+          - /url: "#hizmetler"
+        - link "İletişim" [ref=f6e212] [cursor=pointer]:
+          - /url: "#iletisim"
+      - paragraph [ref=f6e213]: © 2026 Construction Studio. Tüm hakları saklıdır.

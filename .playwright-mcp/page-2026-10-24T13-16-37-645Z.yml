@@ -1,0 +1,124 @@
+- generic [ref=f1e2]:
+  - link "İçeriğe geç" [ref=f1e3] [cursor=pointer]:
+    - /url: "#ana-sayfa"
+  - banner [ref=f1e4]:
+    - link "Temel İnşaat — Ana Sayfa" [ref=f1e5] [cursor=pointer]:
+      - /url: "#ana-sayfa"
+      - generic [ref=f1e9]:
+        - text: TEMEL
+        - generic [ref=f1e10]: İNŞAAT
+    - navigation "Ana menü" [ref=f1e11]:
+      - link "Ana Sayfa" [ref=f1e12] [cursor=pointer]:
+        - /url: "#ana-sayfa"
+      - link "Projeler" [ref=f1e13] [cursor=pointer]:
+        - /url: "#projeler"
+      - link "Hakkımızda" [ref=f1e14] [cursor=pointer]:
+        - /url: "#hakkimizda"
+      - link "Hizmetler" [ref=f1e15] [cursor=pointer]:
+        - /url: "#hizmetler"
+      - link "İletişim" [ref=f1e16] [cursor=pointer]:
+        - /url: "#iletisim"
+        - text: İletişim
+        - generic [aria-hidden] [ref=f1e17]: ↗
+  - main [ref=f1e18]:
+    - region [ref=f1e19]:
+      - generic [ref=f1e21]:
+        - heading "YAŞAM İÇİN İNŞA EDİYORUZ." [level=1] [ref=f1e22]: YAŞAM İÇİNİNŞA EDİYORUZ.
+        - paragraph [ref=f1e23]: Geleceğin yaşam alanlarını, sağlam mühendislik ve çağdaş mimariyle hayata geçiriyoruz.
+        - link "Projelerimizi İncele" [ref=f1e24] [cursor=pointer]:
+          - /url: "#projeler"
+      - button "Arka plan videosunu duraklat" [ref=f1e27] [cursor=pointer]
+    - region [ref=f1e30]:
+      - generic [ref=f1e31]:
+        - generic [ref=f1e32]:
+          - heading "BİR YAPI NASIL HAYATA GEÇER?" [level=2] [ref=f1e33]: BİR YAPI NASILHAYATA GEÇER?
+          - paragraph [ref=f1e34]: Her proje; doğru planlama, güçlü mühendislik ve kusursuz uygulamanın birleşimidir.
+        - generic [ref=f1e35]:
+          - generic "Betonarme bir yapının inşa süreci" [ref=f1e36]
+          - button "Yapı videosunu oynat" [ref=f1e37] [cursor=pointer]
+        - list "Projenin hayata geçiş aşamaları" [ref=f1e40]:
+          - listitem [ref=f1e41]:
+            - heading "Planlama" [level=3] [ref=f1e42]
+            - paragraph [ref=f1e43]: İhtiyaçları anlıyor, her ayrıntıyı özenle planlıyoruz.
+          - listitem [ref=f1e44]:
+            - heading "Mühendislik" [level=3] [ref=f1e45]
+            - paragraph [ref=f1e46]: Sağlam temelleri doğru hesaplarla oluşturuyoruz.
+          - listitem [ref=f1e47]:
+            - heading "Uygulama" [level=3] [ref=f1e48]
+            - paragraph [ref=f1e49]: Projeyi, sahada titizlikle gerçeğe dönüştürüyoruz.
+          - listitem [ref=f1e50]:
+            - heading "Teslim" [level=3] [ref=f1e51]
+            - paragraph [ref=f1e52]: Her detayı kontrol ediyor, yaşamınıza hazır sunuyoruz.
+    - region [ref=f1e53]:
+      - generic [ref=f1e54]:
+        - generic [ref=f1e55]:
+          - heading "Projeler" [level=2] [ref=f1e56]
+          - paragraph [ref=f1e57]: Yaşamı, mimariyi ve mühendisliği bir araya getiren seçili projelerimiz.
+        - generic [ref=f1e58]:
+          - article [ref=f1e59]:
+            - figure "Temsili görsel" [ref=f1e60]:
+              - img "Yeşil bir peyzaj içinde çağdaş konut bloklarını gösteren temsili mimari çizim" [ref=f1e61]
+            - generic [ref=f1e63]:
+              - generic [ref=f1e64]:
+                - paragraph [ref=f1e65]:
+                  - text: Sakarya /
+                  - generic [ref=f1e66]: ","
+                  - text: Konut
+                - heading "Vadi Evleri" [level=3] [ref=f1e67]
+              - generic [ref=f1e68]:
+                - paragraph [ref=f1e69]: Doğayla bütünleşen çağdaş yaşam alanları.
+                - button "Vadi Evleri projesini incele" [ref=f1e70] [cursor=pointer]: Projeyi İncele
+          - article [ref=f1e73]:
+            - figure "Temsili görsel" [ref=f1e74]:
+              - img "Şehir silüeti önünde yükselen konut ve ticaret yapılarını gösteren temsili mimari çizim" [ref=f1e75]
+            - generic [ref=f1e77]:
+              - generic [ref=f1e78]:
+                - paragraph [ref=f1e79]:
+                  - text: İstanbul /
+                  - generic [ref=f1e80]: ","
+                  - text: Karma Yaşam
+                - heading "Kent Rezidans" [level=3] [ref=f1e81]
+              - generic [ref=f1e82]:
+                - paragraph [ref=f1e83]: Şehir yaşamına modern ve işlevsel bir yaklaşım.
+                - button "Kent Rezidans projesini incele" [ref=f1e84] [cursor=pointer]: Projeyi İncele
+          - article [ref=f1e87]:
+            - figure "Temsili görsel" [ref=f1e88]:
+              - img "Su kenarında, ağaçlar arasında yer alan az katlı konutların temsili mimari çizimi" [ref=f1e89]
+            - generic [ref=f1e91]:
+              - generic [ref=f1e92]:
+                - paragraph [ref=f1e93]:
+                  - text: Sapanca /
+                  - generic [ref=f1e94]: ","
+                  - text: Konut
+                - heading "Nehir Konutları" [level=3] [ref=f1e95]
+              - generic [ref=f1e96]:
+                - paragraph [ref=f1e97]: Sakinlik, manzara ve mimariyi bir araya getiren özel yaşam alanları.
+                - button "Nehir Konutları projesini incele" [ref=f1e98] [cursor=pointer]: Projeyi İncele
+    - region [ref=f1e101]:
+      - generic [ref=f1e102]:
+        - paragraph [ref=f1e103]: Hakkımızda
+        - heading "Yalnızca yapı değil, yaşam alanları üretiyoruz." [level=2] [ref=f1e104]: Yalnızca yapı değil,yaşam alanları üretiyoruz.
+        - figure [ref=f1e105]:
+          - img "Gün ışığının aydınlattığı betonarme kolonlar ve döşemeler arasında uzanan yapı içi perspektif." [ref=f1e106]
+        - generic [ref=f1e107]:
+          - paragraph [ref=f1e108]: Her projeye; bulunduğu çevreyi, kullanıcı ihtiyaçlarını ve uzun vadeli değeri birlikte düşünerek yaklaşıyoruz.
+          - paragraph [ref=f1e109]: Mimari kararları güçlü mühendislik, doğru malzeme seçimi ve titiz uygulamayla bir araya getiriyor; zamana karşı değerini koruyan yapılar ortaya çıkarıyoruz.
+        - paragraph [ref=f1e111]: Bizim için iyi bir proje, yalnızca tamamlandığında değil, yıllar sonra da doğru hissettirmelidir.
+    - region [ref=f1e112]:
+      - generic [ref=f1e113]:
+        - generic [ref=f1e114]:
+          - heading "Hizmetlerimiz" [level=2] [ref=f1e115]
+          - paragraph [ref=f1e116]: Fikir aşamasından anahtar teslim uygulamaya kadar, yapı üretiminin her adımında bütüncül çözümler sunuyoruz.
+        - list [ref=f1e117]:
+          - listitem [ref=f1e118]:
+            - heading "Konut Projeleri" [level=3] [ref=f1e119]
+            - paragraph [ref=f1e120]: Modern yaşam ihtiyaçlarını, işlevsel planlama ve güçlü mimariyle bir araya getiriyoruz.
+          - listitem [ref=f1e123]:
+            - heading "Ticari Yapılar" [level=3] [ref=f1e124]
+            - paragraph [ref=f1e125]: İşlevsellik, marka değeri ve kullanıcı deneyimini birlikte düşünen ticari yapılar tasarlıyor ve uyguluyoruz.
+          - listitem [ref=f1e128]:
+            - heading "Anahtar Teslim Uygulama" [level=3] [ref=f1e129]
+            - paragraph [ref=f1e130]: Planlamadan uygulamaya kadar tüm süreci tek bir yapı altında yönetiyoruz.
+          - listitem [ref=f1e133]:
+            - heading "Proje ve Uygulama Yönetimi" [level=3] [ref=f1e134]
+            - paragraph [ref=f1e135]: Bütçe, zaman, kalite ve saha süreçlerini kontrollü biçimde yönetiyoruz.
