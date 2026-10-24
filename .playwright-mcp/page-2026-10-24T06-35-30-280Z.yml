@@ -1,0 +1,30 @@
+- generic [ref=e2]:
+  - link "İçeriğe geç" [ref=e3] [cursor=pointer]:
+    - /url: "#ana-sayfa"
+  - banner [ref=e4]:
+    - link "Temel İnşaat — Ana Sayfa" [ref=e5] [cursor=pointer]:
+      - /url: "#ana-sayfa"
+      - generic [ref=e9]:
+        - text: TEMEL
+        - generic [ref=e10]: İNŞAAT
+    - navigation "Ana menü" [ref=e11]:
+      - link "Ana Sayfa" [ref=e12] [cursor=pointer]:
+        - /url: "#ana-sayfa"
+      - link "Projeler" [ref=e13] [cursor=pointer]:
+        - /url: "#projeler"
+      - link "Hakkımızda" [ref=e14] [cursor=pointer]:
+        - /url: "#hakkimizda"
+      - link "Hizmetler" [ref=e15] [cursor=pointer]:
+        - /url: "#hizmetler"
+      - link "İletişim" [ref=e16] [cursor=pointer]:
+        - /url: "#iletisim"
+        - text: İletişim
+        - generic [aria-hidden] [ref=e17]: ↗
+  - main [ref=e18]:
+    - region [ref=e19]:
+      - generic [ref=e22]:
+        - heading "YAŞAM İÇİN İNŞA EDİYORUZ." [level=1] [ref=e23]: YAŞAM İÇİNİNŞA EDİYORUZ.
+        - paragraph [ref=e24]: Geleceğin yaşam alanlarını, sağlam mühendislik ve çağdaş mimariyle hayata geçiriyoruz.
+        - link "Projelerimizi İncele" [ref=e25] [cursor=pointer]:
+          - /url: "#projeler"
+      - button "Arka plan videosunu duraklat" [ref=e28] [cursor=pointer]

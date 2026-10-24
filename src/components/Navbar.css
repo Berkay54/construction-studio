@@ -1,0 +1,27 @@
+.site-header { height: 100px; padding: 0 5%; display: flex; align-items: center; justify-content: space-between; background: var(--paper); position: relative; z-index: 3; }
+.brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
+.brand-mark { width: 37px; height: 43px; }
+.brand-name { font-size: 25px; font-weight: 800; letter-spacing: -.7px; line-height: 1; }
+.brand-name > span { display: block; margin-top: 7px; font-size: 12px; letter-spacing: 4.1px; font-weight: 700; }
+.navigation { display: flex; align-items: center; gap: clamp(24px, 3vw, 46px); }
+.navigation a { padding: 14px 0; font-size: 16px; font-weight: 600; text-decoration: none; position: relative; transition: color 160ms; }
+.navigation a:hover, .navigation a[aria-current] { color: var(--accent); }
+.navigation a[aria-current]::after { content: ''; position: absolute; bottom: 4px; left: 0; width: 22px; height: 2px; background: var(--accent); }
+.navigation a:last-child { display: flex; gap: 24px; align-items: center; margin-left: 4px; padding-left: 28px; border-left: 1px solid #25323926; }
+.navigation a:last-child span { font-size: 22px; color: var(--accent); }
+.menu-toggle { display: none; }
+@media (max-width: 760px) {
+  .site-header { height: 82px; padding: 0 24px; }
+  .brand-mark { width: 30px; height: 36px; }
+  .brand-name { font-size: 21px; }
+  .brand-name > span { font-size: 10px; letter-spacing: 3.5px; }
+  .menu-toggle { display: flex; align-items: center; gap: 12px; padding: 12px 0 12px 12px; border: 0; background: none; color: var(--ink); font-size: 15px; font-weight: 600; }
+  .menu-icon { display: grid; gap: 5px; width: 22px; }
+  .menu-icon i { height: 2px; width: 22px; background: currentColor; transition: transform 160ms; }
+  .menu-icon.is-open i:first-child { transform: translateY(3.5px) rotate(45deg); }
+  .menu-icon.is-open i:last-child { transform: translateY(-3.5px) rotate(-45deg); }
+  .navigation { display: none; position: absolute; left: 0; right: 0; top: 82px; padding: 18px 24px 28px; background: var(--paper); box-shadow: 0 16px 24px #25323918; }
+  .navigation.is-open { display: flex; align-items: stretch; flex-direction: column; gap: 2px; }
+  .navigation a { padding: 15px 0; font-size: 18px; }
+  .navigation a:last-child { margin: 8px 0 0; border-left: 0; border-top: 1px solid #25323926; padding: 18px 0 0; justify-content: space-between; }
+}

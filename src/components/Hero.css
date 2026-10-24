@@ -1,0 +1,26 @@
+.hero { min-height: 620px; height: calc(100svh - 100px); position: relative; isolation: isolate; display: flex; align-items: center; overflow: hidden; background: #555b57 url('/video/hero-poster.jpg') center / cover; color: var(--paper); }
+.hero-video, .hero-shade { position: absolute; inset: 0; width: 100%; height: 100%; }
+.hero-video { object-fit: cover; object-position: center; z-index: 0; }
+.hero-shade { z-index: 1; pointer-events: none; background: linear-gradient(90deg, rgb(18 25 29 / 40%) 0%, rgb(18 25 29 / 36%) 38%, rgb(18 25 29 / 20%) 68%, rgb(18 25 29 / 12%) 100%); }
+.hero-content { position: relative; z-index: 2; width: 100%; padding: 28px 5% 40px; animation: enter 700ms ease-out both; }
+.hero h1 { margin: 0; max-width: 850px; font-size: clamp(52px, 4.5vw, 72px); line-height: 1.08; letter-spacing: -.045em; font-weight: 800; }
+.hero p { max-width: 465px; margin: 28px 0 34px; font-size: 18px; line-height: 1.7; color: #f1efea; }
+.hero-cta { display: inline-flex; align-items: center; gap: 32px; min-height: 58px; padding: 0 25px; background: var(--accent); color: #fffaf5; text-decoration: none; font-size: 16px; font-weight: 600; transition: background 180ms; }
+.hero-cta:hover { background: #9e4026; }
+.hero-cta svg { transition: transform 180ms; }
+.hero-cta:hover svg { transform: translateX(3px); }
+.video-control { position: absolute; z-index: 2; bottom: 28px; right: 3%; width: 44px; height: 44px; display: grid; place-items: center; border: 1px solid #f4f2ed70; border-radius: 50%; background: #25323966; color: var(--paper); }
+.video-control:hover { background: #253239b3; }
+@keyframes enter { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@media (min-width: 1600px) { .hero-content { padding-left: 7%; } }
+@media (max-width: 1000px) { .hero h1 { font-size: clamp(42px, 5.6vw, 56px); } }
+@media (max-width: 760px) {
+  .hero { height: calc(100svh - 82px); min-height: 540px; align-items: center; }
+  .hero-content { padding: 32px 24px 60px; }
+  .hero h1 { font-size: clamp(30px, 6.5vw, 46px); line-height: 1.12; letter-spacing: -.045em; }
+  .hero p { margin: 24px 0 30px; max-width: 340px; font-size: 16px; line-height: 1.7; }
+  .hero-shade { background: linear-gradient(90deg, rgb(18 25 29 / 40%), rgb(18 25 29 / 36%) 65%, rgb(18 25 29 / 28%)); }
+  .hero-cta { min-height: 56px; padding: 0 22px; gap: 28px; font-size: 15px; }
+  .video-control { right: 24px; bottom: 22px; }
+}
+@media (prefers-reduced-motion: reduce) { .hero-content { animation: none; } .hero-cta, .hero-cta svg { transition: none; } }
